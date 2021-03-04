@@ -5,12 +5,16 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <style>
-        
+        body{
+           overflow: scroll ;
+        }
         i{  
         border: white solid;
         padding-top: 15px;
         position: relative;
         float: left;
+        margin-left: 80px;
+        
         }
         form{
         border: white solid;
@@ -19,9 +23,10 @@
         }
         .but{
         border-color: white;
-        background-color:white;
-        padding-top: 15px;
+        background-color: skyblue;
         float: left;
+        margin-left: 80px;
+        margin-top: 15px;
         }
        div{
            border:white solid 1px;
@@ -35,7 +40,7 @@
       
        .first{
            float: left;
-           width: 65%;
+           width: 67%;
            height: 500px;;
         }
        .second{
@@ -53,7 +58,13 @@
         padding: 15px;
         position: relative;
         float: left;
-
+         }
+         .f{
+             margin-left: 200px;
+            background-color:skyblue;
+            float: right;
+            padding: 10px ;
+            position: relative
          }
         
        
@@ -65,18 +76,18 @@
     <i class="material-icons" >add_alert </i>
     <i class="material-icons" >message </i>
     <form class="form-wrapper cf" >
-        <input type="text" placeholder="Aranacak Metin..." required>
-        <button  type="submit" >ARA</button>
+        <input type="text" placeholder="Search..." required style="margin-left: 100px;">
+        <button  type="submit" ;">ARA</button>
     </form>
     <i class="material-icons" >person_outline </i>
     <button type="submit" class="but" >LogOut</button>
-    <br><br><br>
+    <br><br><br><br>
     <hr>
     <div class="first" style="overflow: scroll;">
         <div class="b">
         <i class="material-icons" >person_outline </i>
         <form class="form-wrapper cf" >
-            <input type="text" placeholder="What's happening?" required style="width: 450px;">
+            <input type="text" placeholder="What's happening?" required style="width: 450px; margin-left: 50px;">
         </form>
         <i class="material-icons" >photo </i>
         <i class="material-icons" >place </i>
@@ -122,23 +133,23 @@
         <div>
             <img src="icrax-kullanıcı-256x256.png" width="50px" style="float: left;">
             <h4 class="c">Fred Munro <br> <mark style="color: lightgrey ; background-color: white;">@fredisdf</mark>
-                <button type="submit" name="FOLLOW" style="background-color: blue; float: right;  padding: 10px ; position: relative">FOLLOW</button>
+                <button class="f" type="submit" name="FOLLOW" >FOLLOW</button>
                 <br><br><br>
                 <hr >
         </div>
         <br><br><br><br><br><br>
         <div >
             <img src="icrax-kullanıcı-256x256.png" width="50px" style="float: left;">
-            <h4 class="c">Leslie Knnope <br> <mark style="color: lightgrey ; background-color: white;">@lesliek</mark>
-                <button type="submit" name="FOLLOW" style="background-color: blue; float: right;  padding: 10px ; position: relative">FOLLOW</button>
+            <h4 class="c">Leslie Knnope <br> <mark style="color: lightgrey ; background-color: white;">@leslieks</mark>
+                <button class="f" type="submit" name="FOLLOW">FOLLOW</button>
                 <br><br><br>
                 <hr>
         </div>
         <br><br><br><br><br><br>
         <div >
             <img src="icrax-kullanıcı-256x256.png" width="50px" style="float: left;">
-            <h4 class="c">John fn <br> <mark style="color: lightgrey ; background-color: white;">@fnjohn</mark>
-                <button type="submit" name="FOLLOW" style="background-color: blue; float: right;  padding: 10px ; position: relative">FOLLOW</button>
+            <h4 class="c">John fn <br> <mark style="color: lightgrey ; background-color: white;">@fnjohnn</mark>
+                <button class="f" type="submit" name="FOLLOW">FOLLOW</button>
                 <br><br><br>
                 <hr>
         </div>
@@ -146,7 +157,10 @@
     <div class="third"style="overflow: scroll;">
         <h3>WorldWide Trends</h3>
         <hr>
-        <b> #twitter</b>
+        <b> #twitter <br>
+            33.5k Tweets</b><br><hr>
+            <b> #Fenerbahce <br>
+                765.5k Tweets</b>
     </div>
 
     
